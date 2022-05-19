@@ -1,0 +1,249 @@
+/*tablet*/
+@media only screen and (max-width: 1024px) {
+  /* the top */
+  .navbar-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-btn {
+    display: inline-block;
+    width: 15%;
+  }
+  .nav-items {
+    display: none;
+  }
+  /* section1 */
+  .content {
+    display: inline-block;
+    /* width: 50%; */
+  }
+  .content-left {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 50px;
+  }
+  .content-left h2 {
+    width: 100%;
+  }
+  .content-left p {
+    width: 100%;
+  }
+  .content-right {
+    margin-left: 7.5rem;
+  }
+
+  /* section3 */
+  .resume {
+    display: inline-block;
+    width: 90%;
+  }
+  .my-education {
+    padding-left: 40px;
+  }
+  .skills {
+    width: 75%;
+  }
+  .skills-data {
+    display: inline;
+  }
+  .skills-ratio {
+    width: 100%;
+  }
+  .right {
+    padding-left: 0px;
+  }
+  /* section4 portfolio */
+  .my-work {
+    width: 50%;
+  }
+
+  /* section5 */
+  .client-Speak {
+    display: inline;
+  }
+  .clients {
+    width: 60%;
+  }
+  /* ******************************************* */
+  /* section6 */
+  .contact {
+    display: inline-block;
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .contact-right {
+    order: 1;
+    width: 100%;
+  }
+  .contact-left {
+    width: 100%;
+  }
+  /* ***************************************** */
+  /* footer */
+  .container {
+    display: block;
+    width: 100%;
+  }
+  .paragraph {
+    width: 100%;
+    text-align: center;
+  }
+  .item-right {
+    padding-top: 1.5rem;
+    /* background-color: blue; */
+    width: 100%;
+  }
+  .list {
+    /* display: inline ; */
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    /* background-color: aqua; */
+  }
+  .list-item {
+    width: 100%;
+    /* text-align: center; */
+  }
+  .vertical-line1 {
+    display: none;
+  }
+  .achievments {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .achievments-item {
+    width: 50%;
+    border-bottom: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+    padding: 30px;
+  }
+  .achievments-item:nth-child(odd) {
+    border-left: none;
+  }
+  .achievments-item:nth-last-child(2),
+  .achievments-item:nth-last-child(3) {
+    border-bottom: none;
+  }
+  .resume {
+    width: 100%;
+  }
+  .my-education {
+    padding-left: 0;
+  }
+  /*updates*/
+  /*section portfolio images */
+  .portfolio {
+    justify-content: start;
+    align-content: start;
+    align-items: start;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .my-work {
+    width: calc(50% - 5px);
+    position: relative;
+  }
+  .my-work:nth-last-child(1) {
+    top: -24vw;
+  }
+  /*updates*/
+  .the-center h2 {
+    font-size: calc(0.15 * 100vw);
+  }
+  .the-center p {
+    font-size: calc(0.05 * 100vw);
+  }
+}
+
+/*mobile*/
+@media only screen and (max-width: 767px) {
+  /*mobile screens*/
+  /* section2 */
+  .items {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .items-data {
+    margin: auto;
+    width: 100%;
+    padding: 15px;
+  }
+  /*section portfolio images */
+  .portfolio {
+    /* width: 90%; */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .my-work {
+    width: 100%;
+    /* background: wheat; */
+    position: relative;
+  }
+  .types {
+    padding: 0.75rem 0.6rem;
+    margin: 0;
+  }
+  .content-right {
+    width: 100%;
+    margin: 0;
+  }
+  .achievments-item {
+    padding: 15px;
+  }
+  .achievments {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /*protfolio section updates*/
+  .portfolio {
+    justify-content: center;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .my-work {
+    width: 100%;
+    position: relative;
+  }
+  .my-work:nth-last-child(1) {
+    position: static;
+  }
+  /*protfolio section updates*/
+  .client-Speak {
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .clients {
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 15px;
+  }
+  /*contact us*/
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+  }
+  .contact-left {
+    width: 100%;
+    text-align: center;
+  }
+  .contact-right {
+    order: -1;
+    width: 100%;
+  }
+  /*footer*/
+  .footer {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .paragraph {
+    font-size: 16px;
+  }
+  .container {
+    margin-bottom: 30px;
+  }
+}
